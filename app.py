@@ -2,7 +2,7 @@ import streamlit as st
 import joblib
 
 # Loading the pre-trained model
-with open('gradient_boosting_model.pkl', 'rb') as file:
+with open('model.pkl', 'rb') as file:
     model = joblib.load(file)
 
 # Giving a title to the app
