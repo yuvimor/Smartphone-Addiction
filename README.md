@@ -23,6 +23,7 @@ The dataset consists of 688 undergraduate students at Notre Dame University (NDU
 - `Anxiety_score`: Score related to anxiety
 - `TotAddiction_Score`: Total addiction score
 
+Link to the study: https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0182239
 
 The project is divided into two modules:
 
