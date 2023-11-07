@@ -1,9 +1,9 @@
 import streamlit as st
-import joblib
+import pickle
 
 # Loading the pre-trained model
 with open('model.pkl', 'rb') as file:
-    model = joblib.load(file)
+    model = pickle.load(file)
 
 # Giving a title to the app
 st.title("Smartphone Addiction Prediction App")
