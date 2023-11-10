@@ -11,7 +11,7 @@ def main():
     st.title("Smartphone Addiction Prediction App")
 
     # Sidebar with user inputs
-    st.sidebar.header("User Input Features")
+    st.sidebar.header("Please answer the following:")
     
     # Update this line to use radio button for single choice selection
     weekday_hours = st.sidebar.radio("Average Smartphone Use on Weekdays", ["<5 hours", ">5 hours"])
