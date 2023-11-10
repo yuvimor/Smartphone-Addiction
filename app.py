@@ -12,6 +12,9 @@ def main():
 
     # Sidebar with user inputs
     st.sidebar.header("Please answer the following:")
+
+    # Add a note with a link to the questionnaire
+    st.sidebar.markdown("Refer to this [questionnaire](https://drive.google.com/file/d/1UvpP9tkUucvrB1ct920LrMWkArb3tDOU/view?usp=sharing) to determine the score of these variables.")
     
     # Update this line to use radio button for single choice selection
     weekday_hours = st.sidebar.radio("Average Smartphone Use on Weekdays", ["<5 hours", ">5 hours"])
